@@ -1,0 +1,101 @@
+
+* {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: Inter, serif;
+}
+
+.header__icon {
+    width: 50%;
+}
+
+.header {
+    padding-top: 50px;
+}
+
+.header__photo img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.header__container {
+    overflow: hidden;
+    display: flex;
+}
+
+.header__name {
+    margin-top: 15%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.header__contacts {
+    display: flex;
+    margin-top: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+.about-me__title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.header__location {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 50px;
+}
+
+.about-me {
+    padding-bottom: 50px;
+}
+
+.about-me__box {
+    margin-top: 20px;
+}
+
+.education__title {
+    background-color: #B8E0E3;
+}
+
+.experience__title {
+    background-color: #D6C3E5;
+}
+
+.skills__title {
+    background-color: #C5E1A5;
+}
+
+.goals__title {
+    background-color: #F8C8B4;
+}
+
+.hobbies__title {
+    background-color: #FAD6A5;
+}
+
+.portfolio__title {
+    background-color: #F9C5D5;
+}
+
+.category__item, .portfolio__item {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.category__title {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+    .header__container {
+        flex-direction: column-reverse;
+    }
+}
+
